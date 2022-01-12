@@ -1,5 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* common styles and utilities */
 body{
     font-family: 'Poppins', sans-serif;
@@ -135,6 +137,7 @@ hr{
     grid-column-gap: 24px;
 }
 .course{
+
     width: 252.42px;
     height: 269.79px;
     filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
@@ -147,6 +150,15 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.course-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+}
+.course-author{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    color: #ED6B4F;
 }
 .course-duration{
     color: #FF4A60;
